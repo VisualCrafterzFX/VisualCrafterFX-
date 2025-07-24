@@ -1,0 +1,19 @@
+
+body {
+  background-color: black;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 50px;
+}
+button {
+  padding: 10px 20px;
+  background: darkred;
+  color: white;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: crimson;
+}

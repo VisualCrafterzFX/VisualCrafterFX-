@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Horror Game Experience</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>क्या तुम तैयार हो?</h1>
+    <p id="story">यह एक पुराना सुनसान घर है... तुम्हें एक खटखटाहट सुनाई देती है।</p>
+    <button onclick="nextStep()">आगे बढ़ो</button>
+    <div id="choices" style="display: none;">
+      <p>क्या तुम दरवाज़ा खोलोगे?</p>
+      <button onclick="choose('yes')">हाँ</button>
+      <button onclick="choose('no')">नहीं</button>
+    </div>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
